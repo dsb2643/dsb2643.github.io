@@ -2,3 +2,32 @@ title: Portfolio
 description: Danielle Balque
 show_downloads: true
 theme: jekyll-theme-cayman
+# Project 1:
+## Identifying High-Risk Texas Counties for Hurricane Impact Using Latitude and Population Data
+This project aimed to identify Texas counties most vulnerable to hurricanes based on their geographical location and population size.
+
+### Data Cleaning and Exploration:
+The team began by importing and cleaning GIS data on Texas counties, removing duplicates and missing values. They then analyzed the latitude and longitude coordinates to assess each county's geographical positioning.
+
+### Hurricane-Prone Zones:
+The study found that hurricane-prone zones lie between latitudes 5-30. They visualized this by creating scatter plots showing all counties and then highlighting those in the hurricane-prone zone. Counties with coordinates in the hurricane-prone zone were found primarily in southern Texas.
+
+### Population Impact:
+The project also analyzed population data to assess which counties had the highest populations and intersected with hurricane-prone zones. The top ten counties by population were visualized, with four of these counties also being in the hurricane-prone zone: Bexar, Fort Bend, Harris, and Hidalgo. The final plot emphasized these high-risk counties with enlarged markers.
+
+### Conclusion:
+The analysis demonstrated that Texas has a considerable number of counties at risk from hurricanes, particularly in the southern regions. Furthermore, several of these counties also have large populations, indicating a significant potential impact from hurricane events.
+
+
+<img width="626" alt="Screenshot 2024-05-01 at 11 59 32 AM" src="https://github.com/daniellebalque/daniellebalque.github.io/assets/162739293/71709730-b7ad-4fa1-9293-721fd3863be0">
+
+
+![Unknown-1](https://github.com/daniellebalque/daniellebalque.github.io/assets/162739293/c257a065-25be-4085-a45d-2368fb8a797c)
+
+![Unknown-2](https://github.com/daniellebalque/daniellebalque.github.io/assets/162739293/6db0125a-0d9a-4bbd-8c7b-65cb2699cb52)
+
+
+![Unknown-3](https://github.com/daniellebalque/daniellebalque.github.io/assets/162739293/9f841c45-e910-42d0-a425-6e30e7878c6e)
+
+
+
