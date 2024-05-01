@@ -6,24 +6,18 @@
 
 /* General styling */
 body {
-  background-color: #f0f0f0;
+  background-color: #fff; /* Setting the background color to white */
   font-family: 'Open Sans', sans-serif;
+  color: #333; /* Setting a darker color for text to ensure readability */
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #fff; /* Keeping container background white */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-}
-
-/* Title container with white background */
-.title-container {
-  background-color: #fff;
-  padding: 20px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .page-header {
@@ -31,7 +25,7 @@ body {
 }
 
 h1, h2 {
-  color: #fff; /* Title text is white */
+  color: #157878; /* Adjusting title colors for contrast against white background */
 }
 
 h1 {
@@ -62,4 +56,7 @@ img.center {
 .site-footer {
   text-align: center;
   padding: 20px;
+  background-color: #f0f0f0; /* Adding a slight background color for footer */
+  border-top: 1px solid #ccc; /* Subtle border between content and footer */
 }
+
