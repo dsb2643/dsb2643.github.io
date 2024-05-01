@@ -2,6 +2,10 @@ title: Portfolio
 description: Danielle Balque
 show_downloads: true
 theme: jekyll-theme-cayman
+
+---
+---
+@import "{{ site.theme }}";
 # Project 1:
 ## Identifying High-Risk Texas Counties for Hurricane Impact Using Latitude and Population Data
 This project aimed to identify Texas counties most vulnerable to hurricanes based on their geographical location and population size.
