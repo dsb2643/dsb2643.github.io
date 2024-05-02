@@ -19,7 +19,9 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-
+h1, h2 {
+  color: #ffffff !important; /* Make title text white with priority */
+}
 /* Title container with white background */
 .title-container {
   background-color: #ffffff;
