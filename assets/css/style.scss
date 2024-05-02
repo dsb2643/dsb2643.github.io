@@ -100,3 +100,20 @@ img.center {
 .main-nav a:hover {
   color: #004b4b; /* Darker color on hover */
 }
+/* styles.css */
+
+/* Styling for LinkedIn button */
+.btn-linkedin {
+  display: inline-block; /* Ensure it behaves like a button */
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #0e76a8; /* LinkedIn blue */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn-linkedin:hover {
+  background-color: #005582; /* Darker shade on hover */
+}
