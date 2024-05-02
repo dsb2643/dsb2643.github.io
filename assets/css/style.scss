@@ -79,3 +79,9 @@ img.center {
   border-top: 1px solid #ccc; /* Subtle border between content and footer */
 }
 
+/* Navigation Menu */
+.main-nav ul {
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center items */
+  gap: 20px;
