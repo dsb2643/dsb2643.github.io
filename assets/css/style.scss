@@ -79,9 +79,24 @@ img.center {
   border-top: 1px solid #ccc; /* Subtle border between content and footer */
 }
 
-/* Navigation Menu */
+.main-nav {
+  text-align: center; /* Centering the menu */
+  margin-bottom: 20px; /* Adding some space below the navigation */
+}
+
 .main-nav ul {
   list-style-type: none; /* Remove bullet points */
   display: flex; /* Display items in a row */
   justify-content: center; /* Center items */
-  gap: 20px;
+  gap: 20px; /* Space between items */
+}
+
+.main-nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #157878; /* Color for links */
+  font-size: 1.2em; /* Size of links */
+}
+
+.main-nav a:hover {
+  color: #004b4b; /* Darker color on hover */
+}
