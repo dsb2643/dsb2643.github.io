@@ -79,6 +79,9 @@ img.center {
   border-top: 1px solid #ccc; /* Subtle border between content and footer */
 }
 
+/* styles.css */
+
+/* Navigation Menu */
 .main-nav {
   text-align: center; /* Centering the menu */
   margin-bottom: 20px; /* Adding some space below the navigation */
@@ -86,9 +89,13 @@ img.center {
 
 .main-nav ul {
   list-style-type: none; /* Remove bullet points */
-  display: flex; /* Display items in a row */
-  justify-content: center; /* Center items */
-  gap: 20px; /* Space between items */
+  display: inline-block; /* Treat the UL as a block element */
+  padding: 0; /* Remove padding from the UL */
+}
+
+.main-nav li {
+  display: inline; /* Display each list item in a row */
+  margin-right: 20px; /* Space between each item */
 }
 
 .main-nav a {
@@ -100,6 +107,9 @@ img.center {
 .main-nav a:hover {
   color: #004b4b; /* Darker color on hover */
 }
+
+
+
 /* styles.css */
 
 /* Styling for LinkedIn button */
