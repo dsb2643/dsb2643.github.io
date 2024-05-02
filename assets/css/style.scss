@@ -79,12 +79,13 @@ img.center {
 }
 
 /* Navigation Menu */
+/* Navigation Menu */
 .main-nav {
   position: fixed; /* Fixes the navigation bar in place */
   top: 20%; /* Positions it from the top */
   left: 20px; /* Positions it from the left */
   width: 200px; /* Sets the sidebar width */
-  background-color: #ffffff; /* Light background color */
+  background-color: #ffffff; /* White background */
   border: 1px solid #ccc; /* Border around the sidebar */
   padding: 10px; /* Padding inside the sidebar */
   border-radius: 8px; /* Rounded corners */
@@ -92,6 +93,10 @@ img.center {
 
 .main-nav ul {
   list-style-type: none; /* Remove bullet points */
+}
+
+.main-nav li {
+  margin-bottom: 10px; /* Space between items */
 }
 
 .main-nav a {
@@ -103,12 +108,6 @@ img.center {
 .main-nav a:hover {
   color: #004b4b; /* Darker color on hover */
 }
-
-.main-nav li {
-  margin-bottom: 10px; /* Space between items */
-}
-
-
 
 
 /* Styling for LinkedIn button */
