@@ -29,6 +29,15 @@ h1, h2 {
   color: #ffffff !important; /* Make title text white with priority */
 }
 
+/* styles.css */
+
+/* Styling to make Unknown-4.png smaller */
+.img-small {
+  max-width: 50%; /* Sets the image to be at most 50% of its original width */
+  max-height: 50%; /* Ensures proportional scaling of the image */
+  display: block; /* Ensures it's displayed as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
 
 .page-header {
   text-align: center;
