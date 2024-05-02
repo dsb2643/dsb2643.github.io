@@ -79,23 +79,20 @@ img.center {
   border-top: 1px solid #ccc; /* Subtle border between content and footer */
 }
 
-/* styles.css */
-
 /* Navigation Menu */
 .main-nav {
-  text-align: center; /* Centering the menu */
-  margin-bottom: 20px; /* Adding some space below the navigation */
+  position: fixed; /* Fixes the navigation bar in place */
+  top: 20%; /* Positions it from the top */
+  left: 20px; /* Positions it from the left */
+  width: 200px; /* Sets the sidebar width */
+  background-color: #f0f0f0; /* Light background color */
+  border: 1px solid #ccc; /* Border around the sidebar */
+  padding: 10px; /* Padding inside the sidebar */
+  border-radius: 8px; /* Rounded corners */
 }
 
 .main-nav ul {
   list-style-type: none; /* Remove bullet points */
-  display: inline-block; /* Treat the UL as a block element */
-  padding: 0; /* Remove padding from the UL */
-}
-
-.main-nav li {
-  display: inline; /* Display each list item in a row */
-  margin-right: 20px; /* Space between each item */
 }
 
 .main-nav a {
@@ -108,6 +105,9 @@ img.center {
   color: #004b4b; /* Darker color on hover */
 }
 
+.main-nav li {
+  margin-bottom: 10px; /* Space between items */
+}
 
 
 
