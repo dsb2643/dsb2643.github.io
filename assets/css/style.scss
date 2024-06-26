@@ -73,40 +73,40 @@ img.center {
 
 /* Navigation Menu */
 .container {
-  display: flex; /* Use flexbox for layout */
+  display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  background-color: #ffffff; /* White background color */
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
 }
 
 .nav-container {
-  width: 200px; /* Width for the sidebar */
-  background-color: #ffffff; /* White background color */
-  padding: 20px; /* Padding inside the sidebar */
-  border-radius: 8px; /* Rounded corners */
-  text-align: center; /* Center text */
+  width: 200px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .main-nav ul {
-  list-style-type: none; /* Remove bullet points */
-  padding-left: 0; /* Remove default padding */
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .main-nav li {
-  margin-bottom: 10px; /* Space between items */
+  margin-bottom: 10px;
 }
 
 .main-nav a {
-  display: block; /* Make links block elements for full width */
-  text-decoration: none; /* Remove underline from links */
-  color: #157878; /* Color for links */
-  font-size: 1.2em; /* Size of links */
+  display: block;
+  text-decoration: none;
+  color: #157878;
+  font-size: 1.2em;
 }
 
 .main-nav a:hover {
-  color: #004b4b; /* Darker color on hover */
+  color: #004b4b;
 }
 
 
