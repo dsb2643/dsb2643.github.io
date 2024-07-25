@@ -2,3 +2,136 @@
 ---
 
 @import 'jekyll-theme-cayman';
+/* styles.css */
+
+/* General styling */
+body {
+  background-color: #ffffff; /* Setting the background color to white */
+  font-family: 'Open Sans', sans-serif;
+   /* Setting a darker color for text to ensure readability */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Keeping container background white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+
+.page-header h1, .page-header h2 {
+  color: #ffffff; /* Make title text white */
+}
+
+}
+h1, h2 {
+  color: #ffffff !important; /* Make title text white with priority */
+}
+
+
+/* Styling to make Unknown-4.png smaller */
+.img-small {
+  max-width: 50%; /* Sets the image to be at most 50% of its original width */
+  max-height: 50%; /* Ensures proportional scaling of the image */
+  display: block; /* Ensures it's displayed as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.page-header {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #157878; /* Adjusting title colors for contrast against white background */
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* Image centering */
+img.center {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Ensure it scales proportionally */
+}
+
+/* Navigation Menu */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.nav-container {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-nav li {
+  margin-bottom: 10px;
+}
+
+.main-nav a {
+  display: block;
+  text-decoration: none;
+  color: #157878;
+  font-size: 1.2em;
+}
+
+.main-nav a:hover {
+  color: #004b4b;
+}
+
+
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Adding a slight background color for footer */
+  border-top: 1px solid #ccc; /* Subtle border between content and footer */
+}
+
+
+
+/* Styling for LinkedIn button */
+.btn-linkedin {
+  display: inline-block; /* Ensure it behaves like a button */
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #0e76a8; /* LinkedIn blue */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn-linkedin:hover {
+  background-color: #005582; /* Darker shade on hover */
+}
